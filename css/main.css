@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Playfair+Display&display=swap&family=Roboto&display=swap");
+/* button color = #44b386*/
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+  -webkit-box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+}
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 3.5rem;
+  color: #44b386;
+  text-align: center;
+  font-weight: 700;
+}
+
+#container {
+  width: 85%;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  box-shadow: 0 0px 30px rgba(32, 32, 32, 0.2);
+  flex-direction: column;
+}
+#container main {
+  flex: 1;
+}
+main {
+  display: flex;
+  align-items: center;
+}
+.col6 {
+  width: 60%;
+}
+main p {
+  padding-right: 30px;
+  line-height: 48px;
+  font-size: 1.5rem;
+  padding: 10px 30px;
+  margin-bottom: 32px;
+}
+main img {
+  width: 500px;
+}
+.header h1 {
+  text-align: center;
+  letter-spacing: 1.5px;
+  line-height: 1;
+  padding: 15px 0px;
+}
+button {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 15px 40px;
+  border-radius: 6px;
+  display: inline-block;
+  font-weight: 500;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin: 12px 0px;
+  padding: 12px 24px;
+  color: #fff;
+  border: 0;
+  background-color: #44b386;
+}
+#button1 {
+  margin: 0 30px;
+}
+button:focus {
+  outline: 0;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #38946f;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+}
+.signup {
+  display: none;
+}
+.login {
+  display: none;
+}
