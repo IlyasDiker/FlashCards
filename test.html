@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body> 
+    <!--Login Form-->
+    <button id="magic" class="btn">magic</button>
+    <div class="login card">
+        <form action="#" method="post">
+            <label for="username">Username :</label>
+            <input type="text" name="username" id="username">
+            <label for="pass">Password:</label>
+            <input type="password" name="pass" id="pass">
+            <input type="submit" value="login" class="btn" >
+        </form>
+    </div>
+    <script>
+        document.getElementById("magic").addEventListener("click",()=>{
+                document.getElementsByClassName("login")[0].style.display="block";
+        })
+    </script>
+</body>
+</html>

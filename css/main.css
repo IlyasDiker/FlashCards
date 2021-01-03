@@ -51,7 +51,7 @@ main img {
   line-height: 1;
   padding: 15px 0px;
 }
-button {
+.btn {
   font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -67,13 +67,13 @@ button {
   border: 0;
   background-color: #44b386;
 }
-#button1 {
-  margin: 0 30px;
+.btn:first-child {
+  margin-left: 30px;
 }
-button:focus {
+.btn:focus {
   outline: 0;
 }
-button:hover {
+.btn:hover {
   cursor: pointer;
   background-color: #38946f;
   font-weight: bold;
@@ -82,9 +82,38 @@ button:hover {
 footer {
   text-align: center;
 }
-.signup {
-  display: none;
+
+.card {
+  margin: 10px;
+  box-shadow: 2px;
+  background-color: #fcfcfc;
+  box-shadow: 0 4px 8px 0 rgba(32, 32, 32, 0.2);
 }
-.login {
-  display: none;
+label {
+  display: block;
+  text-align: center;
+}
+input[type="text"],
+input[type="password"] {
+  display: block;
+  width: 76%;
+  padding: 5px 15px;
+  font-size: 1rem;
+  margin: 10px auto;
+  border: 0;
+  outline: 0;
+  text-align: center;
+  line-height: 30px;
+  border-bottom: 1px solid black;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border: 0;
+  border-bottom: 1px solid #38946f;
+}
+input[type="submit"] {
+  margin: auto;
+  width: 200px;
+  margin: 15px auto;
+  display: block;
 }
