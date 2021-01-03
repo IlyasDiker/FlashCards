@@ -79,7 +79,10 @@ main img {
   font-weight: bold;
 }
 
-footer {
+.page-footer {
+  color: white;
+  padding: 15px;
+  background-color: #38946f;
   text-align: center;
 }
 
@@ -93,7 +96,8 @@ label {
   display: block;
   text-align: center;
 }
-input[type="text"],
+
+/* input[type="text"],
 input[type="password"] {
   display: block;
   width: 76%;
@@ -116,4 +120,15 @@ input[type="submit"] {
   width: 200px;
   margin: 15px auto;
   display: block;
+} */
+
+.modal{
+  padding: 20px;
+  border-radius: 6px;
+}
+
+@media only screen and (max-width: 1080px) {
+  main{
+    flex-direction: column;
+  }
 }
